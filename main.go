@@ -9,9 +9,10 @@ import (
 func main() {
 	fmt.Println("Hello world")
 
+	persistance.RestoreWeavingModel()
 	persistance.RestoreBaseModel1()
 	persistance.RestoreBaseModel2()
-	persistance.RestoreWeavingModel()
+
 	persistance.Inspect()
 
 }
